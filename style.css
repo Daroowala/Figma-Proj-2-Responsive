@@ -40,10 +40,12 @@
     width: 170px;
     height: 48px;
     font-size: medium;
+    letter-spacing: 2px;
     position: absolute;
     top: 450px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .group{
     display: flex;
