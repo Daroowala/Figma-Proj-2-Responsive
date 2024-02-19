@@ -1,27 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
     <div class="contanier">
-        <div class="navbar">
-            <img class="logo" src="Image/Frame 4.png" alt="">
-            <a class="link1" href="#">Home</a>
-            <a class="link1" href="#">Portfolio</a>
-            <a class="link1" href="#">Services</a>
-            <a class="link1" href="#">Contact</a>
-            <h3 class="wel">Welcome</h3>
-            <h2 class="work">Lorem ipsum dolor sit <br> amet, consectetur adipisicing.</h2>
-            <p class="contant">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Nam ex tenetur, nihil excepturi facere exercitationem, <br> nemo placeat eligendi consectetur sed sapiente <br>  cumque in, pariatur adipisci incidunt assumenda ut. Modi, eos!</p>
-            <button class="explore">Explore</button>
-            <img class="group" src="Image/Group.png" alt="">
+      <nav class="navbar navbar-expand-lg navbar-light nav-bg-col">
+        <img class="navbar-logo" src="Image/Frame 4.png" alt="">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="barnavbar">
+          <ul class="links-navbar">
+            <li class="active-nav-item">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Contact</a>
+            </li>
+          </ul>
         </div>
-        
+      </nav>
     </div>
-   
-</body>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
